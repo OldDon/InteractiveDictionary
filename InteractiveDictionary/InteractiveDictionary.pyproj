@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>65231038-3741-4ee7-bac6-01a5591b43f7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>InteractiveDictionary.py</StartupFile>
+    <StartupFile>interactive_dictionary_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="id_course_solution1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="InteractiveDictionary.py" />
+    <Compile Include="interactive_dictionary_2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
